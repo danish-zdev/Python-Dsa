@@ -1,0 +1,1 @@
+Concurrent programming involves doing different tasks one after another quickly, while parallel programming means doing different tasks at the same time, which makes things faster.

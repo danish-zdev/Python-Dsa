@@ -1,0 +1,115 @@
+Here is a comprehensive list of both practical and theoretical JavaScript interview questions that are frequently asked for candidates with 2 years of experience:
+
+### Theoretical JavaScript Questions
+
+1. **Core JavaScript Concepts:**
+   - What is the difference between `var`, `let`, and `const`? When would you use each one?
+   - Explain the concept of closures in JavaScript. How do they work?
+   - What is hoisting in JavaScript?
+   - Explain the difference between synchronous and asynchronous code in JavaScript.
+   - What are JavaScript Promises? How do they work? Can you explain `async` and `await`?
+   - What is the Event Loop in JavaScript? How does it work?
+   - Explain the concept of `this` keyword in JavaScript. How does it behave differently in various contexts?
+   - What is the difference between `==` and `===` in JavaScript?
+   - Explain what `call`, `apply`, and `bind` are in JavaScript. How do they differ?
+   - What are higher-order functions? Can you provide an example?
+
+2. **Data Structures & Types:**
+   - Explain the difference between `null` and `undefined`.
+   - What are JavaScript data types? Can you list them?
+   - What is the difference between an object and an array in JavaScript?
+   - Explain the concept of deep copy vs shallow copy in JavaScript. How would you implement each?
+   - How does JavaScript handle type coercion? Can you provide examples?
+
+3. **Object-Oriented JavaScript:**
+   - What is prototypal inheritance in JavaScript?
+   - How do you create a class in JavaScript? What is the difference between a class and a function constructor?
+   - Explain the concept of "method chaining" in JavaScript.
+   - What are JavaScript mixins?
+
+4. **Functional Programming:**
+   - What is a pure function in JavaScript? Why are they important?
+   - Explain the concepts of `map`, `filter`, and `reduce` functions. Provide examples of each.
+   - What is immutability in JavaScript, and why is it important?
+
+5. **Error Handling:**
+   - How do you handle errors in JavaScript? Explain the use of `try`, `catch`, and `finally`.
+   - What are custom errors? How would you create one in JavaScript?
+
+6. **Asynchronous JavaScript:**
+   - Explain the difference between `setTimeout` and `setInterval`.
+   - What are JavaScript Promises, and how do they compare to callback functions?
+   - How does `async/await` improve handling asynchronous code?
+   - Explain what `fetch` is and how it is used to make HTTP requests.
+
+7. **JavaScript in the Browser:**
+   - What is the DOM (Document Object Model), and how do you manipulate it using JavaScript?
+   - Explain the concept of event delegation in JavaScript.
+   - What are the common methods to select DOM elements? Compare `getElementById`, `querySelector`, and `getElementsByClassName`.
+   - What is `localStorage` and `sessionStorage` in JavaScript? How are they different?
+
+8. **Modern JavaScript (ES6+):**
+   - What are template literals? Provide an example of how to use them.
+   - What is destructuring in JavaScript? Provide examples for arrays and objects.
+   - Explain the concept of default parameters in functions.
+   - What are arrow functions, and how do they differ from traditional functions?
+   - What are spread and rest operators in JavaScript? How are they used?
+   - What are modules in JavaScript? How do `import` and `export` work?
+
+### Practical JavaScript Coding Questions
+
+1. **DOM Manipulation:**
+   - Write a function to create a new DOM element and append it to an existing element.
+   - Create a JavaScript function that toggles the visibility of an element when a button is clicked.
+   - Write a script that changes the background color of a webpage when the user clicks a button.
+
+2. **Array Manipulation:**
+   - Given an array of numbers, write a function to return the sum of all the numbers.
+   - Write a function that takes an array and returns a new array with only the unique elements.
+   - Implement a function that sorts an array of numbers in ascending order.
+
+3. **String Manipulation:**
+   - Write a function to reverse a given string.
+   - Implement a function to check if a string is a palindrome.
+   - Write a function that capitalizes the first letter of every word in a string.
+
+4. **Asynchronous Programming:**
+   - Write a function that uses `fetch` to get data from an API and displays it on the webpage.
+   - Create a countdown timer using `setTimeout` or `setInterval` that counts down from a specified number.
+   - Write an example of how to handle multiple asynchronous operations in sequence using Promises.
+
+5. **Object-Oriented Programming:**
+   - Create a simple class in JavaScript that represents a `Car`. Include properties like `make`, `model`, and `year`, and methods like `start` and `stop`.
+   - Extend the `Car` class to create a `ElectricCar` class that adds a `batteryLevel` property and a method to charge the car.
+   - Implement a `Book` class with properties like `title`, `author`, and methods like `getSummary`.
+
+6. **Event Handling:**
+   - Create an event listener that listens for a click event on a button and displays an alert.
+   - Write a function that changes the text of a paragraph when the mouse hovers over it.
+   - Implement a form validation function that checks if the input fields are filled out and display appropriate error messages.
+
+7. **Functional Programming:**
+   - Write a function that takes an array of numbers and returns an array of the squares of those numbers using `map`.
+   - Implement a function that filters out all even numbers from an array using `filter`.
+   - Create a function that calculates the product of an array of numbers using `reduce`.
+
+### Advanced Practical Exercises (Optional)
+
+1. **Debounce Function:**
+   - Write a debounce function that delays invoking a function until after a specified wait time has elapsed since the last time the function was invoked.
+
+2. **Deep Clone:**
+   - Implement a function to deep clone a JavaScript object.
+
+3. **Promise.all Implementation:**
+   - Write a function that mimics the behavior of `Promise.all`.
+
+### Preparing for the Interview
+
+- **Practice Coding:** Make sure you are comfortable coding in JavaScript without relying on IDEs or autocomplete features.
+- **Understand the Basics:** Ensure you have a solid understanding of the fundamental concepts of JavaScript. Interviewers often focus on concepts like closures, scopes, and asynchronous programming.
+- **Solve Problems:** Use platforms like LeetCode, Codewars, or HackerRank to practice solving JavaScript problems.
+- **Project Experience:** Be ready to discuss any projects you’ve worked on, explaining the decisions you made, the challenges you faced, and how you solved them.
+- **Brush Up on ES6+ Features:** Modern JavaScript features like destructuring, spread/rest operators, arrow functions, and async/await are commonly discussed in interviews.
+  
+Being well-prepared in both practical and theoretical aspects of JavaScript will give you a solid foundation to excel in your interview. Good luck!
